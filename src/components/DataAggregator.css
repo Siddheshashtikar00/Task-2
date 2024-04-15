@@ -1,0 +1,72 @@
+.icons2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.integration-ecosystem {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 24px;
+}
+.track-your-progress,
+.your-efforts-everyday {
+  margin: 0;
+}
+.body1,
+.get-for-free3 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.body1 {
+  align-self: stretch;
+}
+.get-for-free3 {
+  display: inline-block;
+  min-width: 85px;
+  white-space: nowrap;
+}
+.icons3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttons3 {
+  height: 21px;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.data-aggregator,
+.output-combiner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.output-combiner {
+  align-self: stretch;
+  font-size: var(--body-bold-size);
+  font-family: var(--body-s);
+}
+.data-aggregator {
+  flex: 1;
+  padding: var(--padding-21xl) 0 var(--padding-22xl);
+  box-sizing: border-box;
+  min-width: 205px;
+  max-width: 260px;
+  text-align: left;
+  font-size: var(--h5-size);
+  color: var(--color-black);
+  font-family: var(--h2);
+}

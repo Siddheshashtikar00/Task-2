@@ -889,12 +889,15 @@
   font-size: var(--h5-size);
   font-family: var(--h2);
 }
-.desktop-child,
+.desktop-child{
+
+  width: 1350px;
+}
 .frame-container {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  max-width: 100%;
+  /* max-width: 1350px; */
 }
 .frame-container {
   flex: 1;

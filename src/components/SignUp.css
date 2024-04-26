@@ -33,21 +33,32 @@
   max-width: 100%;
 }
 .get-for-free7 {
-  position: relative;
-  letter-spacing: -0.02em;
-  font-weight: 500;
-  display: inline-block;
-  min-width: 85px;
-}
+ 
+    position: relative;
+   /* right: 10px; */
+   text-align: center;
+    background-color:black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 37px;
+    width: 95px;
+    font-size: 100%;
+  }
 .buttons7 {
+  position: absolute;
+ left: 550px;
   border-radius: var(--br-3xs);
   background-color: var(--color-black);
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: var(--padding-3xs) var(--padding-mini);
   white-space: nowrap;
+  z-index: 1;
+  color: var(--neutral-100);
 }
 .get-for-free8 {
   position: relative;
@@ -77,6 +88,13 @@
   padding: var(--padding-3xs) 0;
   gap: var(--gap-9xs);
   color: var(--color-black);
+  position: absolute;
+  left: 700px;
+}
+.buttons8:hover{
+
+  text-decoration: underline;
+  cursor: pointer;
 }
 .buttons-parent {
   justify-content: flex-start;
@@ -136,12 +154,13 @@
   background-color: var(--neutral-100);
   overflow: hidden;
   flex-shrink: 0;
-  max-width: 100%;
+  max-width: 1350px;
   text-align: center;
   font-size: var(--h2-size);
   color: var(--color-midnightblue);
   font-family: var(--h2);
 }
+
 @media screen and (max-width: 750px) {
   .h26 {
     font-size: var(--font-size-24xl);

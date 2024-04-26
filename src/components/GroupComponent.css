@@ -67,13 +67,6 @@
   width: 457px;
   height: 99px;
 }
-.get-for-free1 {
-  position: relative;
-  letter-spacing: -0.02em;
-  font-weight: 500;
-  display: inline-block;
-  min-width: 85px;
-}
 
 .ok{
   position: relative;
@@ -107,9 +100,26 @@
     text-decoration: underline; /* Underline on hover */
     cursor: pointer; /* Set cursor to pointer on hover */
   }
-  
-  
+  .buttons2:hover{
 
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .get-for-free1 {
+    position: relative;
+   /* right: 10px; */
+   text-align: center;
+    background-color:black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 37px;
+    width: 95px;
+    font-size: 100%;
+  }
+  
 
 .buttons1 {
   position: absolute;
@@ -144,8 +154,8 @@
 }
 .buttons2 {
   position: absolute;
-  top: 513.5px;
-  left: 175px;
+  top: 523px;
+  left: 190px;
   border-radius: var(--br-3xs);
   display: flex;
   flex-direction: row;
@@ -181,8 +191,9 @@
   height: 659px;
 }
 .half-torus-1-icon {
-  position: absolute;
-  right: -70.1px;
+  position: relative;
+  left: 1100px;
+  top: 500px;
   bottom: -110px;
   width: 318.4px;
   height: 318.4px;
@@ -190,7 +201,8 @@
   z-index: 4;
 }
 .rectangle-parent {
-  align-self: stretch;
+  align-self: stretch; 
+  width: 1350px;
   height: 710px;
   position: relative;
   background: linear-gradient(201.28deg, #eaeefe, #183ec2);
@@ -200,19 +212,41 @@
   color: var(--color-black);
   font-family: var(--body-s);
 }
+
 @media screen and (max-width: 750px) {
   .h1 {
-    font-size: var(--font-size-26xl);
-    line-height: 54px;
+    font-size: 24px;
+    line-height: 30px;
+    width: 90%; /* Adjust width for smaller screens */
+    left: 5%; /* Center the element */
+  }
+
+  .body {
+    font-size: 14px;
+    line-height: 20px;
+    width: 90%;
+    left: 5%;
+  }
+
+  .buttons1 {
+    width: 90%;
+    left: 5%;
   }
 }
+
 @media screen and (max-width: 450px) {
   .h1 {
-    font-size: var(--font-size-8xl);
-    line-height: 36px;
+    font-size: 18px;
+    line-height: 24px;
   }
+
   .body {
-    font-size: var(--h5-size);
-    line-height: 25px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .buttons1 {
+    width: 100%;
+    left: 0;
   }
 }

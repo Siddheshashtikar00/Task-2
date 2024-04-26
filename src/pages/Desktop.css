@@ -94,7 +94,7 @@
   flex-shrink: 0;
 }
 .desktop {
-  width: 100%;
+  width: 1350px;
   height: 6605px;
   background-color: var(--neutral-100);
   overflow: hidden;

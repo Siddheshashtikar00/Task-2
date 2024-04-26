@@ -160,7 +160,11 @@
   font-size: var(--body-bold-size);
   color: var(--color-gray-200);
 }
-.bar-parent,
+.bar-parent{
+
+  width: 1350px;
+
+}
 .nav-bar-desktop {
   align-self: stretch;
   display: flex;

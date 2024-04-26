@@ -40,6 +40,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  width: 1350px;
 }
 .spinner {
   flex-direction: column;

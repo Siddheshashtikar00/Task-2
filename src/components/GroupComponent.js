@@ -13,7 +13,7 @@ const GroupComponent = () => {
         progress, motivate your efforts, and celebrate your successes.
       </h3>
       <div className="buttons1">
-        <div className="get-for-free1">Get for free</div>
+        <button className="get-for-free1">Get for free</button>
       </div>
       <div className="buttons2">
         <div className="get-for-free2">Learn more</div>

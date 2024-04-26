@@ -67,6 +67,6 @@
   justify-content: flex-start;
   padding: var(--padding-11xs) 0 0;
   box-sizing: border-box;
-  max-width: 100%;
+  max-width: 1350px;
   flex-shrink: 0;
 }

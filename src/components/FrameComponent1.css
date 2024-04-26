@@ -1,5 +1,6 @@
 .version-20-is3 {
   flex: 1;
+  text-align: center;
   position: relative;
   letter-spacing: -0.02em;
   line-height: 31px;
@@ -98,7 +99,7 @@
   line-height: 23px;
   font-family: var(--body-s);
 }
-.footer-ssocialscard,
+
 .h2-group {
   display: flex;
   flex-direction: column;
@@ -172,8 +173,24 @@
   justify-content: center;
   padding: var(--padding-21xl) var(--padding-30xl);
 }
-.footer-ssocialscard-parent,
-.footer-ssocialscard1,
+.footer-ssocialscard-parent{
+
+border: none;
+
+}
+.footer-ssocialscard1{
+position: absolute;
+left: 50%;
+top: 44%;
+
+}
+.footer-ssocialscard{
+
+position: absolute;
+/* top: 44%; */
+  
+}
+
 .frame-group {
   display: flex;
   align-items: center;
@@ -197,6 +214,7 @@
 }
 .desktop-inner {
   align-self: stretch;
+  width: 1350px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;

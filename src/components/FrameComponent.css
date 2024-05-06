@@ -1,6 +1,5 @@
 .version-20-is4 {
   margin-top: -2px;
-  position: relative;
   letter-spacing: -0.02em;
   line-height: 31px;
   font-weight: 500;
@@ -891,12 +890,15 @@
 }
 .desktop-child{
 
+  
   width: 1350px;
 }
 .frame-container {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  position: relative;
+  bottom: -500px;
   /* max-width: 1350px; */
 }
 .frame-container {

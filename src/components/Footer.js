@@ -26,34 +26,34 @@ const Footer = () => {
         </div>
         <div className="value-comparer">
           <div className="product1">
-            <b className="product2">Product</b>
-            <div className="features1">Features</div>
-            <div className="integrations3">Integrations</div>
-            <div className="updates1">Updates</div>
-            <div className="faq">FAQ</div>
-            <div className="pricing">Pricing</div>
+           <a href="#" className="kz"> <b className="product2">Product</b></a>
+           <a href="#" className="kz"> <div className="features1">Features</div></a>
+           <a href="#" className="kz"> <div className="integrations3">Integrations</div></a>
+           <a href="#" className="kz"> <div className="updates1">Updates</div></a>
+           <a href="#" className="kz"> <div className="faq">FAQ</div></a>
+           <a href="#" className="kz"> <div className="pricing">Pricing</div></a>
           </div>
           <div className="company">
-            <b className="company1">Company</b>
-            <div className="about1">About</div>
-            <div className="blog">Blog</div>
-            <div className="careers">Careers</div>
-            <div className="manifesto">Manifesto</div>
-            <div className="press">Press</div>
-            <div className="contact">Contact</div>
+          <a href="#" className="kz"> <b className="company1">Company</b></a>
+          <a href="#" className="kz"> <div className="blog">Blog</div></a>
+          <a href="#" className="kz"> <div className="careers">Careers</div></a>
+          <a href="#" className="kz"> <div className="manifesto">Manifesto</div></a>
+          <a href="#" className="kz"> <div className="press">Press</div></a>
+          <a href="#" className="kz"> <div className="contact">Contact</div></a>
           </div>
           <div className="resources">
-            <b className="resources1">Resources</b>
-            <div className="examples">Examples</div>
-            <div className="community">Community</div>
-            <div className="guides">Guides</div>
-            <div className="docs">Docs</div>
+          <a href="#" className="kz">  <b className="resources1">Resources</b></a>
+            <a href="#" className="kz">  <div className="examples">Examples</div></a>
+            <a href="#" className="kz"> <div className="community">Community</div></a>
+            <a href="#" className="kz"><div className="guides">Guides</div></a>
+            <a href="#" className="kz"> <div className="guides">Guides</div></a>
+            <a href="#" className="kz"> <div className="docs">Docs</div></a>
           </div>
           <div className="security">
-            <b className="legal">Legal</b>
-            <div className="privacy">Privacy</div>
-            <div className="terms">Terms</div>
-            <div className="security1">Security</div>
+          <a href="#" className="kz"> <b className="legal">Legal</b></a>
+          <a href="#" className="kz"> <div className="privacy">Privacy</div></a>
+          <a href="#" className="kz"> <div className="terms">Terms</div></a>
+          <a href="#" className="kz"> <div className="security1">Security</div></a>
           </div>
         </div>
       </footer>

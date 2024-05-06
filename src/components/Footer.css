@@ -5,6 +5,17 @@
   right: 0;
   left: 0;
 }
+
+.kz{
+
+  color: white;
+  
+}
+
+.kz:hover{
+
+  color: white;
+}
 .data-splitter {
   height: 80.49%;
   top: 14.63%;

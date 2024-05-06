@@ -53,6 +53,7 @@
   gap: var(--gap-xl);
 }
 .data-processor {
+  margin-top: 28rem;
   align-self: stretch;
   flex-direction: row;
   justify-content: center;

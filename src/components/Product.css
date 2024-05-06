@@ -155,6 +155,7 @@
 }
 .product{
 
+  width: 100%;
 position: relative;
 left: 0%;
 right: 0%;
@@ -174,12 +175,12 @@ right: 0%;
   padding: var(--padding-93xl) var(--padding-31xl) var(--padding-87xl);
   position: relative;
   gap: var(--gap-21xl);
-  max-width: 100%;
+ width: 100%;
 }
 .product {
   margin-left: -81px;
   margin-bottom: 92px;
-  width: 1362px;
+  width:2000px;
   padding: 0 var(--padding-62xl);
   max-width: 113%;
   flex-shrink: 0;

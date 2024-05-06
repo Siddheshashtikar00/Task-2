@@ -413,6 +413,7 @@
   font-size: var(--body-bold-size);
   color: var(--color-black);
   font-family: var(--body-s);
+
 }
 @media screen and (max-width: 1050px) {
   .locker {
